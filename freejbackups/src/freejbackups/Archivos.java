@@ -34,8 +34,8 @@ public class Archivos {
           {
           conteoFiles++; 
           archivos.add(fichero.getPath().toString());      
-          EscribirArchivo("f;"+fichero.getPath()+";"+TamañoArchivo(fichero));
-              CalcularTamaño(fichero);
+          //EscribirArchivo("f;"+fichero.getPath()+";"+TamañoArchivo(fichero));
+          CalcularTamaño(fichero);
           }
        }
    } 

@@ -115,12 +115,13 @@ public void run()
                 // recorrro los archivos del directorio actual 
                 for (int ii= 0 ;ii<Archivos.GetArchivos().size() ;ii++){
                     File file = new File(Archivos.GetArchivos().elementAt(ii));
+                    PlanEjecutar.lblComprimiendoArchivo.setText(file.getPath());
                     agregarArchivoZip(file,zos); // agrego el archivos al zip actual  
                     ArchivosProcesados++; // cuenta los archivos que voy procesando
                     bytesReadTotales += file.length()/1024;
                     PlanEjecutar.tblInfoProceso.setValueAt(ArchivosProcesados,i ,1); // informo en el formulario los archivos procesados
                     PlanEjecutar.tblInfoProceso.setValueAt((bytesReadTotales) + " KB",i ,2) ; // tamaño procesado
-         
+                    
                 }
               
                 zos.flush();
@@ -128,13 +129,20 @@ public void run()
                 
                 // informo que termine con el directorio actual
                 historial.logCompresion("Terminado : " + obj.getName());
+                PlanEjecutar.lblComprimiendoArchivo.setText("---");
+                
                 
             } catch (IOException ex) {
                 Logger.getLogger(hilo.class.getName()).log(Level.SEVERE, null, ex);
                 historial.logError(ex.getMessage());
             }
             }// fin for proincipal
-    JOptionPane.showMessageDialog(null, "RESGUARDO TERMINADO");
+          
+            JOptionPane.showMessageDialog(null, "RESGUARDO TERMINADO");
+            PlanEjecutar.btnIniciar.setEnabled(false);
+            PlanEjecutar.btnParar.setEnabled(false);
+            PlanEjecutar.btnPausar.setEnabled(false);
+            
 }
      
 
