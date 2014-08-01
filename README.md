@@ -1,13 +1,14 @@
 freejbackups  
 ============
 
-introducción 
+Introducción 
 
 freejbackus de la necesidad de realizar resguardos en servidores de archivos
 y mi necesidad personal de tener una excusa para ponerme a aprender java.
  
 ¿Que es jbackups?
- Por ahora es solo un programa  para poder comprimir directorios por lotes.
+
+Por ahora es solo un programa  para poder comprimir directorios por lotes.
 
 "comprimir directorios por lotes."
 
