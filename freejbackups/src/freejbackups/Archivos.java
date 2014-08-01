@@ -28,7 +28,7 @@ public class Archivos {
        for (File fichero : ficheros) {
           if (fichero.isDirectory()) {
                conteoDIRs++;  
-               EscribirArchivo("d;"+fichero.getPath()+";null");
+              // EscribirArchivo("d;"+fichero.getPath()+";null");
                listarDirectorio(fichero);
            }else
           {
@@ -82,7 +82,7 @@ public class Archivos {
         FileWriter fichero = null;
         PrintWriter pw = null;
     try {   
-            fichero = new FileWriter("log/archivos.txt",true);
+            fichero = new FileWriter("log/historial.text",true);
             pw = new PrintWriter(fichero);
             pw.println(linea);
             fichero.close();
@@ -90,7 +90,5 @@ public class Archivos {
        historial.logError(e.getMessage());
        }
    }
-   
-   
-        
+          
 }
