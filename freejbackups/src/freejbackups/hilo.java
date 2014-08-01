@@ -12,7 +12,6 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 import javax.swing.JOptionPane;
 
-
 /**
  * 
  * implementacion de hilos gracias a la explicacion de Jorge V. http://codigoprogramacion.com/cursos/java/133-uso-de-hilos-o-threads-en-java.html#.U6zFHECTMUo
@@ -103,7 +102,7 @@ public void run()
              //obtenter el directorio                   Archivos.GetCantDirectorios();    
             //PlanEjecutar.tblInfoProceso.setValueAt( Archivos.GetTamañoTotal(),i ,2) ; // tamaño
             PlanEjecutar.tblInfoProceso.setValueAt(Archivos.GetCantArchivos()  ,i ,3) ; // cantidad de archivos y directorios
-           PlanEjecutar.tblInfoProceso.setValueAt( Archivos.GetTamañoTotal(),i ,4) ; // tamaño
+           PlanEjecutar.tblInfoProceso.setValueAt( Archivos.GetTamañoTotal() + " KB",i ,4) ; // tamaño
         
                
                //creo el archivo ZIP
@@ -119,7 +118,7 @@ public void run()
                     agregarArchivoZip(file,zos); // agrego el archivos al zip actual  
                     ArchivosProcesados++; // cuenta los archivos que voy procesando
                     PlanEjecutar.tblInfoProceso.setValueAt(ArchivosProcesados,i ,1); // informo en el formulario los archivos procesados
-                     PlanEjecutar.tblInfoProceso.setValueAt((bytesReadTotales/1024.0),i ,2) ; // tamaño procesado
+                    PlanEjecutar.tblInfoProceso.setValueAt((bytesReadTotales/1024.0) + " KB",i ,2) ; // tamaño procesado
          
                 }
               
