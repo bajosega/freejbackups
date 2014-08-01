@@ -38360,3 +38360,350 @@ f;C:\Users\aseimandi\Documents\emision\user\31124.RPT;9
 f;C:\Users\aseimandi\Documents\emision\user\31125.CHN;17
 f;C:\Users\aseimandi\Documents\emision\user\31125.RPT;9
 f;C:\Users\aseimandi\Documents\emision\user\31126.CHN;17
+d;F:\origen\curriculum;null
+f;F:\origen\curriculum\CURRICULUM VITAE 2014 Cecilia Gomez.pdf;200
+f;F:\origen\curriculum\CV C. Gómez (2013).doc;36
+f;F:\origen\curriculum\CV Marcos Iglesias modificado .docx;14
+f;F:\origen\curriculum\CV Marcos Iglesias.docx;14
+d;F:\origen\dos;null
+f;F:\origen\dos\acces.mdb;100
+f;F:\origen\dos\Nuevo documento de texto.txt;0
+f;F:\origen\Nuevo Aplicación Microsoft Office Access.mdb;100
+d;F:\origen\curriculum;null
+f;F:\origen\curriculum\CURRICULUM VITAE 2014 Cecilia Gomez.pdf;200
+f;F:\origen\curriculum\CV C. Gómez (2013).doc;36
+f;F:\origen\curriculum\CV Marcos Iglesias modificado .docx;14
+f;F:\origen\curriculum\CV Marcos Iglesias.docx;14
+d;F:\origen\dos;null
+f;F:\origen\dos\acces.mdb;100
+f;F:\origen\dos\Nuevo documento de texto.txt;0
+f;F:\origen\Nuevo Aplicación Microsoft Office Access.mdb;100
+f;C:\Users\aseimandi\Documents\manual fiat\desp.pdf;33215
+d;C:\Users\aseimandi\Documents\manual fiat\Nueva carpeta;null
+f;C:\Users\aseimandi\Documents\manual fiat\taller1.pdf;5551
+f;C:\Users\aseimandi\Documents\manual fiat\Usuario.pdf;7035
+f;C:\Users\aseimandi\Documents\manual fiat\desp.pdf;33215
+d;C:\Users\aseimandi\Documents\manual fiat\Nueva carpeta;null
+f;C:\Users\aseimandi\Documents\manual fiat\taller1.pdf;5551
+f;C:\Users\aseimandi\Documents\manual fiat\Usuario.pdf;7035
+f;F:\resguardo ic96\Desktop\Acceso directo a Personal_09.lnk;2
+f;F:\resguardo ic96\Desktop\Acronis - Acceso directo.lnk;2
+d;F:\resguardo ic96\Desktop\BASE;null
+d;F:\resguardo ic96\Desktop\BASE\CANALES;null
+f;F:\resguardo ic96\Desktop\BASE\CANALES\SYSTEM.LDB;0
+f;F:\resguardo ic96\Desktop\BASE\CANALES\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\CANALES2;null
+f;F:\resguardo ic96\Desktop\BASE\CANALES2\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\CANALES2\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\CONTROL;null
+f;F:\resguardo ic96\Desktop\BASE\CONTROL\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\CONTROL\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\EMISION;null
+f;F:\resguardo ic96\Desktop\BASE\EMISION\SYSTEM.LDB;0
+f;F:\resguardo ic96\Desktop\BASE\EMISION\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\ENSAYOS;null
+f;F:\resguardo ic96\Desktop\BASE\ENSAYOS\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\ENSAYOS\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\SSC;null
+f;F:\resguardo ic96\Desktop\BASE\SSC\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\VALORES;null
+f;F:\resguardo ic96\Desktop\BASE\VALORES\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\VALORES\SYSTEM.MDA;128
+f;F:\resguardo ic96\Desktop\Borrar el viernes ..lnk;2
+f;F:\resguardo ic96\Desktop\desktop.ini;0
+f;F:\resguardo ic96\Desktop\Dropbox.lnk;1
+f;F:\resguardo ic96\Desktop\emision20140704.zip;98502
+f;F:\resguardo ic96\Desktop\Emi_Liq.exe - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\Export.rar;105
+f;F:\resguardo ic96\Desktop\GSistemas (fs01) - Acceso directo.lnk;1
+f;F:\resguardo ic96\Desktop\GSistemas (fs01).lnk;2
+f;F:\resguardo ic96\Desktop\indicadores zetas - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\Microsoft Office Outlook 2007.lnk;3
+f;F:\resguardo ic96\Desktop\Microsoft Visual Basic 6.0.lnk;1
+f;F:\resguardo ic96\Desktop\montar unidad de red desde vb6.txt;0
+d;F:\resguardo ic96\Desktop\PersonalHS;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Acceso directo a Personal_09.lnk;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Instalación.doc;23
+f;F:\resguardo ic96\Desktop\PersonalHS\logonuevo.jpg;24
+d;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta;null
+d;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64\psqlodbc_x64.msi;2053
+f;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal.CAB;11190
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal.cfg;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal_09.exe;2816
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\INSTRUCCIONES INSTALACION.txt;0
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200\psqlodbc.msi;1148
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200.zip;841
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\psqlodbc_x64.msi;2176
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\upgrade_x64.bat;1
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64.zip;1815
+d;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64\psqlodbc_x64.msi;2053
+f;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\setup.exe;209
+f;F:\resguardo ic96\Desktop\PersonalHS\SETUP.LST;5
+d;F:\resguardo ic96\Desktop\PersonalHS\Support;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\asycfilt.dll;140
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\COMCAT.DLL;22
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\comdlg32.ocx;149
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\DBGRID32.OCX;513
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Impresion.dll;36
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MDAC_TYP.EXE;8009
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSADODC.OCX;129
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSCAL.OCX;109
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\mscomct2.ocx;647
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSCOMCTL.OCX;1046
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSDATLST.OCX;229
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\msflxgrd.ocx;255
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\mshflxgd.ocx;430
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\msstdfmt.dll;117
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSVBVM60.DLL;1354
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\oleaut32.dll;612
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\olepro32.dll;160
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.BAT;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.cfg;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.DDF;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.exe;736
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP.EXE;209
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP.LST;5
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP1.EXE;320
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SiPerDat.dll;176
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\ST6UNST.EXE;150
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\stdole2.tlb;16
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\tabctl32.ocx;219
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\VB6STKIT.DLL;100
+f;F:\resguardo ic96\Desktop\PersonalHS\Thumbs.db;22
+f;F:\resguardo ic96\Desktop\PersonalHS\transper1.mdb;498
+f;F:\resguardo ic96\Desktop\PersonalHS\~$stalación.doc;0
+f;F:\resguardo ic96\Desktop\Personal_09.exe - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\pgAdmin III.lnk;1
+f;F:\resguardo ic96\Desktop\ProjectLibre.lnk;2
+f;F:\resguardo ic96\Desktop\putty.exe;472
+f;F:\resguardo ic96\Desktop\Remote Desktop Connection.lnk;2
+f;F:\resguardo ic96\Desktop\Run UltraVNC Viewer (Listen Mode).lnk;1
+f;F:\resguardo ic96\Desktop\SQL Server Management Studio.lnk;1
+f;F:\resguardo ic96\Desktop\UltraVNC Viewer.lnk;1
+f;F:\resguardo ic96\Desktop\vmProtect8.url;0
+f;F:\resguardo ic96\Desktop\WINAMP.LNK;2
+f;F:\resguardo ic96\Desktop\WinSCP.exe - Acceso directo.lnk;13
+f;F:\resguardo ic96\Desktop\Yammer Notifier.appref-ms;0
+f;F:\resguardo ic96\Desktop\yammer.url;0
+f;F:\resguardo ic96\Desktop\Acceso directo a Personal_09.lnk;2
+f;F:\resguardo ic96\Desktop\Acronis - Acceso directo.lnk;2
+d;F:\resguardo ic96\Desktop\BASE;null
+d;F:\resguardo ic96\Desktop\BASE\CANALES;null
+f;F:\resguardo ic96\Desktop\BASE\CANALES\SYSTEM.LDB;0
+f;F:\resguardo ic96\Desktop\BASE\CANALES\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\CANALES2;null
+f;F:\resguardo ic96\Desktop\BASE\CANALES2\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\CANALES2\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\CONTROL;null
+f;F:\resguardo ic96\Desktop\BASE\CONTROL\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\CONTROL\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\EMISION;null
+f;F:\resguardo ic96\Desktop\BASE\EMISION\SYSTEM.LDB;0
+f;F:\resguardo ic96\Desktop\BASE\EMISION\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\ENSAYOS;null
+f;F:\resguardo ic96\Desktop\BASE\ENSAYOS\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\ENSAYOS\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\SSC;null
+f;F:\resguardo ic96\Desktop\BASE\SSC\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\VALORES;null
+f;F:\resguardo ic96\Desktop\BASE\VALORES\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\VALORES\SYSTEM.MDA;128
+f;F:\resguardo ic96\Desktop\Borrar el viernes ..lnk;2
+f;F:\resguardo ic96\Desktop\desktop.ini;0
+f;F:\resguardo ic96\Desktop\Dropbox.lnk;1
+f;F:\resguardo ic96\Desktop\emision20140704.zip;98502
+f;F:\resguardo ic96\Desktop\Emi_Liq.exe - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\Export.rar;105
+f;F:\resguardo ic96\Desktop\GSistemas (fs01) - Acceso directo.lnk;1
+f;F:\resguardo ic96\Desktop\GSistemas (fs01).lnk;2
+f;F:\resguardo ic96\Desktop\indicadores zetas - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\Microsoft Office Outlook 2007.lnk;3
+f;F:\resguardo ic96\Desktop\Microsoft Visual Basic 6.0.lnk;1
+f;F:\resguardo ic96\Desktop\montar unidad de red desde vb6.txt;0
+d;F:\resguardo ic96\Desktop\PersonalHS;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Acceso directo a Personal_09.lnk;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Instalación.doc;23
+f;F:\resguardo ic96\Desktop\PersonalHS\logonuevo.jpg;24
+d;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta;null
+d;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64\psqlodbc_x64.msi;2053
+f;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal.CAB;11190
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal.cfg;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal_09.exe;2816
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\INSTRUCCIONES INSTALACION.txt;0
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200\psqlodbc.msi;1148
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200.zip;841
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\psqlodbc_x64.msi;2176
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\upgrade_x64.bat;1
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64.zip;1815
+d;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64\psqlodbc_x64.msi;2053
+f;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\setup.exe;209
+f;F:\resguardo ic96\Desktop\PersonalHS\SETUP.LST;5
+d;F:\resguardo ic96\Desktop\PersonalHS\Support;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\asycfilt.dll;140
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\COMCAT.DLL;22
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\comdlg32.ocx;149
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\DBGRID32.OCX;513
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Impresion.dll;36
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MDAC_TYP.EXE;8009
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSADODC.OCX;129
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSCAL.OCX;109
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\mscomct2.ocx;647
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSCOMCTL.OCX;1046
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSDATLST.OCX;229
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\msflxgrd.ocx;255
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\mshflxgd.ocx;430
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\msstdfmt.dll;117
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSVBVM60.DLL;1354
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\oleaut32.dll;612
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\olepro32.dll;160
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.BAT;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.cfg;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.DDF;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.exe;736
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP.EXE;209
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP.LST;5
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP1.EXE;320
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SiPerDat.dll;176
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\ST6UNST.EXE;150
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\stdole2.tlb;16
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\tabctl32.ocx;219
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\VB6STKIT.DLL;100
+f;F:\resguardo ic96\Desktop\PersonalHS\Thumbs.db;22
+f;F:\resguardo ic96\Desktop\PersonalHS\transper1.mdb;498
+f;F:\resguardo ic96\Desktop\PersonalHS\~$stalación.doc;0
+f;F:\resguardo ic96\Desktop\Personal_09.exe - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\pgAdmin III.lnk;1
+f;F:\resguardo ic96\Desktop\ProjectLibre.lnk;2
+f;F:\resguardo ic96\Desktop\putty.exe;472
+f;F:\resguardo ic96\Desktop\Remote Desktop Connection.lnk;2
+f;F:\resguardo ic96\Desktop\Run UltraVNC Viewer (Listen Mode).lnk;1
+f;F:\resguardo ic96\Desktop\SQL Server Management Studio.lnk;1
+f;F:\resguardo ic96\Desktop\UltraVNC Viewer.lnk;1
+f;F:\resguardo ic96\Desktop\vmProtect8.url;0
+f;F:\resguardo ic96\Desktop\WINAMP.LNK;2
+f;F:\resguardo ic96\Desktop\WinSCP.exe - Acceso directo.lnk;13
+f;F:\resguardo ic96\Desktop\Yammer Notifier.appref-ms;0
+f;F:\resguardo ic96\Desktop\yammer.url;0
+f;F:\resguardo ic96\Desktop\Acceso directo a Personal_09.lnk;2
+f;F:\resguardo ic96\Desktop\Acronis - Acceso directo.lnk;2
+d;F:\resguardo ic96\Desktop\BASE;null
+d;F:\resguardo ic96\Desktop\BASE\CANALES;null
+f;F:\resguardo ic96\Desktop\BASE\CANALES\SYSTEM.LDB;0
+f;F:\resguardo ic96\Desktop\BASE\CANALES\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\CANALES2;null
+f;F:\resguardo ic96\Desktop\BASE\CANALES2\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\CANALES2\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\CONTROL;null
+f;F:\resguardo ic96\Desktop\BASE\CONTROL\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\CONTROL\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\EMISION;null
+f;F:\resguardo ic96\Desktop\BASE\EMISION\SYSTEM.LDB;0
+f;F:\resguardo ic96\Desktop\BASE\EMISION\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\ENSAYOS;null
+f;F:\resguardo ic96\Desktop\BASE\ENSAYOS\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\ENSAYOS\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\SSC;null
+f;F:\resguardo ic96\Desktop\BASE\SSC\SYSTEM.MDA;128
+d;F:\resguardo ic96\Desktop\BASE\VALORES;null
+f;F:\resguardo ic96\Desktop\BASE\VALORES\SYSTEM.ldb;0
+f;F:\resguardo ic96\Desktop\BASE\VALORES\SYSTEM.MDA;128
+f;F:\resguardo ic96\Desktop\Borrar el viernes ..lnk;2
+f;F:\resguardo ic96\Desktop\desktop.ini;0
+f;F:\resguardo ic96\Desktop\Dropbox.lnk;1
+f;F:\resguardo ic96\Desktop\emision20140704.zip;98502
+f;F:\resguardo ic96\Desktop\Emi_Liq.exe - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\Export.rar;105
+f;F:\resguardo ic96\Desktop\GSistemas (fs01) - Acceso directo.lnk;1
+f;F:\resguardo ic96\Desktop\GSistemas (fs01).lnk;2
+f;F:\resguardo ic96\Desktop\indicadores zetas - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\Microsoft Office Outlook 2007.lnk;3
+f;F:\resguardo ic96\Desktop\Microsoft Visual Basic 6.0.lnk;1
+f;F:\resguardo ic96\Desktop\montar unidad de red desde vb6.txt;0
+d;F:\resguardo ic96\Desktop\PersonalHS;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Acceso directo a Personal_09.lnk;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Instalación.doc;23
+f;F:\resguardo ic96\Desktop\PersonalHS\logonuevo.jpg;24
+d;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta;null
+d;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64\psqlodbc_x64.msi;2053
+f;F:\resguardo ic96\Desktop\PersonalHS\Nueva carpeta\psqlodbc_09_00_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal.CAB;11190
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal.cfg;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Personal_09.exe;2816
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\INSTRUCCIONES INSTALACION.txt;0
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200\psqlodbc.msi;1148
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc-07_03_0200.zip;841
+d;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\psqlodbc_x64.msi;2176
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64\upgrade_x64.bat;1
+f;F:\resguardo ic96\Desktop\PersonalHS\posgres odbc\psqlodbc_09_01_0200-x64.zip;1815
+d;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64;null
+f;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64\psqlodbc_x64.msi;2053
+f;F:\resguardo ic96\Desktop\PersonalHS\psqlodbc_09_00_0200-x64\README.txt;1
+f;F:\resguardo ic96\Desktop\PersonalHS\setup.exe;209
+f;F:\resguardo ic96\Desktop\PersonalHS\SETUP.LST;5
+d;F:\resguardo ic96\Desktop\PersonalHS\Support;null
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\asycfilt.dll;140
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\COMCAT.DLL;22
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\comdlg32.ocx;149
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\DBGRID32.OCX;513
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Impresion.dll;36
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MDAC_TYP.EXE;8009
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSADODC.OCX;129
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSCAL.OCX;109
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\mscomct2.ocx;647
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSCOMCTL.OCX;1046
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSDATLST.OCX;229
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\msflxgrd.ocx;255
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\mshflxgd.ocx;430
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\msstdfmt.dll;117
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\MSVBVM60.DLL;1354
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\oleaut32.dll;612
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\olepro32.dll;160
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.BAT;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.cfg;0
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.DDF;1
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\Personal.exe;736
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP.EXE;209
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP.LST;5
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SETUP1.EXE;320
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\SiPerDat.dll;176
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\ST6UNST.EXE;150
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\stdole2.tlb;16
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\tabctl32.ocx;219
+f;F:\resguardo ic96\Desktop\PersonalHS\Support\VB6STKIT.DLL;100
+f;F:\resguardo ic96\Desktop\PersonalHS\Thumbs.db;22
+f;F:\resguardo ic96\Desktop\PersonalHS\transper1.mdb;498
+f;F:\resguardo ic96\Desktop\PersonalHS\~$stalación.doc;0
+f;F:\resguardo ic96\Desktop\Personal_09.exe - Acceso directo.lnk;2
+f;F:\resguardo ic96\Desktop\pgAdmin III.lnk;1
+f;F:\resguardo ic96\Desktop\ProjectLibre.lnk;2
+f;F:\resguardo ic96\Desktop\putty.exe;472
+f;F:\resguardo ic96\Desktop\Remote Desktop Connection.lnk;2
+f;F:\resguardo ic96\Desktop\Run UltraVNC Viewer (Listen Mode).lnk;1
+f;F:\resguardo ic96\Desktop\SQL Server Management Studio.lnk;1
+f;F:\resguardo ic96\Desktop\UltraVNC Viewer.lnk;1
+f;F:\resguardo ic96\Desktop\vmProtect8.url;0
+f;F:\resguardo ic96\Desktop\WINAMP.LNK;2
+f;F:\resguardo ic96\Desktop\WinSCP.exe - Acceso directo.lnk;13
+f;F:\resguardo ic96\Desktop\Yammer Notifier.appref-ms;0
+f;F:\resguardo ic96\Desktop\yammer.url;0

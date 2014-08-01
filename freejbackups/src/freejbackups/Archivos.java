@@ -20,7 +20,7 @@ public class Archivos {
     
     static int  conteoFiles = 0;
     static int  conteoDIRs = 0;
-    static int  TamañoTotal = 0;
+    static long  TamañoTotal = 0;
     static Vector<String> archivos =new Vector<String>();
     
    public static void listarDirectorio(File f){
@@ -47,7 +47,7 @@ public class Archivos {
    return  conteoDIRs;
    }
    
-   public static int GetTamañoTotal(){
+   public static long GetTamañoTotal(){
    return  TamañoTotal;
    }
    
@@ -61,7 +61,7 @@ public class Archivos {
    }
    
    public static void CalcularTamaño(File fichero){
-   TamañoTotal += ((fichero.length()/1024.0)/1024.0); 
+   TamañoTotal += ((fichero.length()/1024.0)); 
    }
      
    public static String fechaModificado(File fichero){

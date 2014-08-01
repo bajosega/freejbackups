@@ -93,16 +93,16 @@ public void run()
             try {
                 File obj = new File(Directorios[i]);
                 // obtengo la lista de archivos
-                Archivos.listarDirectorio(obj);
-                
+                historial.logCompresion("Leyendo directorio : " + obj.getName());
+                Archivos.listarDirectorio(obj);   
                 ArchivosProcesados=0;
                 bytesReadTotales =0;
-             //obtengo el tamaño total del directorio   Archivos.GetTamañoTotal();
-             //obtengo la cantidad de archivos          Archivos.GetCantArchivos();
-             //obtenter el directorio                   Archivos.GetCantDirectorios();    
-            //PlanEjecutar.tblInfoProceso.setValueAt( Archivos.GetTamañoTotal(),i ,2) ; // tamaño
-            PlanEjecutar.tblInfoProceso.setValueAt(Archivos.GetCantArchivos()  ,i ,3) ; // cantidad de archivos y directorios
-           PlanEjecutar.tblInfoProceso.setValueAt( Archivos.GetTamañoTotal() + " KB",i ,4) ; // tamaño
+                //obtengo el tamaño total del directorio   Archivos.GetTamañoTotal();
+                //obtengo la cantidad de archivos          Archivos.GetCantArchivos();
+                //obtenter el directorio                   Archivos.GetCantDirectorios();    
+                //PlanEjecutar.tblInfoProceso.setValueAt( Archivos.GetTamañoTotal(),i ,2) ; // tamaño
+                PlanEjecutar.tblInfoProceso.setValueAt(Archivos.GetCantArchivos()  ,i ,3) ; // cantidad de archivos y directorios
+                PlanEjecutar.tblInfoProceso.setValueAt( Archivos.GetTamañoTotal() + " KB",i ,4) ; // tamaño
         
                
                //creo el archivo ZIP
@@ -117,8 +117,9 @@ public void run()
                     File file = new File(Archivos.GetArchivos().elementAt(ii));
                     agregarArchivoZip(file,zos); // agrego el archivos al zip actual  
                     ArchivosProcesados++; // cuenta los archivos que voy procesando
+                    bytesReadTotales += file.length()/1024;
                     PlanEjecutar.tblInfoProceso.setValueAt(ArchivosProcesados,i ,1); // informo en el formulario los archivos procesados
-                    PlanEjecutar.tblInfoProceso.setValueAt((bytesReadTotales/1024.0) + " KB",i ,2) ; // tamaño procesado
+                    PlanEjecutar.tblInfoProceso.setValueAt((bytesReadTotales) + " KB",i ,2) ; // tamaño procesado
          
                 }
               
@@ -147,8 +148,6 @@ private void agregarArchivoZip(File file, ZipOutputStream zos)
         while ((read = bis.read(bytesIn)) != -1) {
             zos.write(bytesIn, 0, read);
             bytesRead += read;
-            bytesReadTotales += bytesRead;
-
         }
         zos.closeEntry();
     } catch (IOException ex) {
