@@ -88,8 +88,11 @@ public void detenElHilo()
 @Override
 public void run()
 {   
+    historial.logCompresion(".");
+    historial.logCompresion("COMENZANDO CON LA COMPRESION POR LOTES");        
         for (int i=0;i<(Directorios.length);i++)
         { 
+            historial.logCompresion("..");    
             try {
                 File obj = new File(Directorios[i]);
                 // obtengo la lista de archivos
@@ -120,8 +123,7 @@ public void run()
                     ArchivosProcesados++; // cuenta los archivos que voy procesando
                     bytesReadTotales += file.length()/1024;
                     PlanEjecutar.tblInfoProceso.setValueAt(ArchivosProcesados,i ,1); // informo en el formulario los archivos procesados
-                    PlanEjecutar.tblInfoProceso.setValueAt((bytesReadTotales) + " KB",i ,2) ; // tamaño procesado
-                    
+                    PlanEjecutar.tblInfoProceso.setValueAt((bytesReadTotales) + " KB",i ,2) ; // tamaño procesado                
                 }
               
                 zos.flush();
@@ -138,7 +140,10 @@ public void run()
             }
             }// fin for proincipal
           
-            JOptionPane.showMessageDialog(null, "RESGUARDO TERMINADO");
+            JOptionPane.showMessageDialog(null, "RESGUARDO/s TERMINADO/s");
+            historial.logCompresion("...");
+            historial.logCompresion("RESGUARDO/s TERMINADO/s");
+            historial.logCompresion(".....");
             PlanEjecutar.btnIniciar.setEnabled(false);
             PlanEjecutar.btnParar.setEnabled(false);
             PlanEjecutar.btnPausar.setEnabled(false);
