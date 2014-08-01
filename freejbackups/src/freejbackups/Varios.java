@@ -5,7 +5,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @"jbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
+ * @"freejbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
  */
 public class Varios {
     private void llenarJtable(JTable jotaTable,String[] Datos){

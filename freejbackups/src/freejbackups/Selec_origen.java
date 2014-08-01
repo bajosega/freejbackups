@@ -4,7 +4,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @"jbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
+ * @"freejbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
  */
 public class Selec_origen extends javax.swing.JFrame {
   

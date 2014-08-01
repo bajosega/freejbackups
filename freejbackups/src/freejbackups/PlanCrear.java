@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @"jbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
+ * @"freejbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
  */
 
 public class PlanCrear extends javax.swing.JFrame {  

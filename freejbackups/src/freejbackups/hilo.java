@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  * 
  * implementacion de hilos gracias a la explicacion de Jorge V. http://codigoprogramacion.com/cursos/java/133-uso-de-hilos-o-threads-en-java.html#.U6zFHECTMUo
  * mas documentacion consultada http://leo.ugr.es/J2ME/CLDC/transjava/node11.html
- * @"jbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
+ * @"freejbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
  */
 public class hilo  extends Thread  {
 private static final int BUFFER_SIZE = 4096;
