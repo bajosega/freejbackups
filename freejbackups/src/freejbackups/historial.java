@@ -43,13 +43,18 @@ public class historial {
     System.out.println(getFecha() + "-" + contenido);
     PlanEjecutar.jHistorial.append(getFecha()+ "-" + contenido);  
     PlanEjecutar.jHistorial.append(System.getProperty("line.separator")); // Esto para el salto de línea 
-        
+    Archivos.EscribirArchivo(getFecha()+ "-" + contenido);    
     }  
     
     public static void logError(String contenido)
     {
     System.out.println(getFecha() + "-" + contenido);
     PlanEjecutar.txtErrores.append(getFecha()+ "-" + contenido);  
-    PlanEjecutar.txtErrores.append(System.getProperty("line.separator")); // Esto para el salto de línea     
+    PlanEjecutar.txtErrores.append(System.getProperty("line.separator")); // Esto para el salto de línea
+    Archivos.EscribirArchivo(getFecha()+ "-" + contenido);
     }   
+    
+   
+    
+    
 }
