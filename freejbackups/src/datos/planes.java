@@ -7,8 +7,9 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author aseimandi
+ * @"freejbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
  */
+
 public class planes extends operaciones{
   
     public  void GuardarPlan(String Nombre,String origenes[],String destino){

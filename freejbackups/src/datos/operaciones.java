@@ -4,6 +4,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
+/**
+ *
+ * @"freejbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
+ */
 
 public class operaciones extends conexion{
 

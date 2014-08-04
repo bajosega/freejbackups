@@ -7,8 +7,9 @@ import java.sql.Statement;
 import javax.swing.JOptionPane;
 /**
  *
- * @author adrian
+ * @"freejbakcups" por Adrian Seimandi - bajosega@gmail.com - @2014
  */
+
 public class conexion {
         Connection conexion;
 	Statement consulta;

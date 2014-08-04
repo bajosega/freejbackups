@@ -172,7 +172,7 @@ public class PlanCrear extends javax.swing.JFrame {
     private void btnGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarActionPerformed
 
     if (!"".equals(txtNombrePlan.getText().trim()))    
-    {   JOptionPane.showMessageDialog(null, "guarda configuracion en la base de datos sqllite pero todavia no se usa para nada");
+    {   JOptionPane.showMessageDialog(null, "guarda configuracion en la base de datos sqlite pero todavia no se usa para nada");
         planes obj = new planes();
         String Origen[] = new String[tblDirectorios.getRowCount()];
         for (int i=0;i<tblDirectorios.getRowCount();i++){
