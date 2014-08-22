@@ -17,6 +17,13 @@
  */
 package freejbackups;
 
+import datos.planes;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.table.DefaultTableModel;
+
 
 public class PlanConsola extends javax.swing.JFrame {
 
@@ -33,15 +40,13 @@ public class PlanConsola extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        btnRefrescar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
+
             },
             new String [] {
                 "NOMBRE", "ULTIMA EJECUCION", "ESTADO EJECUCION", "ACTIVO"
@@ -57,25 +62,64 @@ public class PlanConsola extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
+        btnRefrescar.setText("refrescar");
+        btnRefrescar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRefrescarActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 617, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(235, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnRefrescar)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 729, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(60, 60, 60))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(65, 65, 65)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(259, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnRefrescar)
+                .addContainerGap(160, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnRefrescarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefrescarActionPerformed
+        try {
+            DefaultTableModel modelo = (DefaultTableModel) jTable1.getModel();
+            
+            // limpio el modelo para que no me vuelva a cargar valores repetidos
+            for (int cont=0; cont < modelo.getRowCount() ; cont++){
+              modelo.removeRow(cont);
+            }
+            
+            planes objPlanes = new planes();
+            ResultSet rs= objPlanes.consultar("SELECT nombre,fechaCreado,ultimaEjecucion,estado,activo FROM plan");
+            
+            //Creando las filas para el JTable
+            while (rs.next()) {
+                Object[] fila = new Object[4];
+                for (int i = 0; i < 4; i++) {
+                    fila[i]=rs.getObject(i+1);
+                }
+                modelo.addRow(fila);
+            } 
+              jTable1.setModel(modelo);
+          } catch (SQLException ex) {
+            Logger.getLogger(PlanConsola.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println(ex.getMessage());
+        }
+
+    }//GEN-LAST:event_btnRefrescarActionPerformed
 
   
     public static void main(String args[]) {
@@ -106,11 +150,18 @@ public class PlanConsola extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new PlanConsola().setVisible(true);
+              
+                 // cargo valor para poder probar   
+              // planes objPlanes = new planes();
+               // objPlanes.InsertarPlan("'plandemo', '11/07/2013', '11/07/2013', 'error', 'false'"); 
+              //  traer valores a la tabla 
+                            
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnRefrescar;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
