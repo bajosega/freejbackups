@@ -44,13 +44,11 @@ public class Archivos {
        for (File fichero : ficheros) {
           if (fichero.isDirectory()) {
                conteoDIRs++;  
-              // EscribirArchivo("d;"+fichero.getPath()+";null");
                listarDirectorio(fichero);
            }else
           {
           conteoFiles++; 
           archivos.add(fichero.getPath().toString());      
-          //EscribirArchivo("f;"+fichero.getPath()+";"+TamañoArchivo(fichero));
           CalcularTamaño(fichero);
           }
        }
