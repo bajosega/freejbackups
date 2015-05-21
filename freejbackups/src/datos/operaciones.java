@@ -22,7 +22,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
-
 public class operaciones extends conexion{
 
     public boolean insertar(String sql){
@@ -50,10 +49,7 @@ public class operaciones extends conexion{
         }
         return valor;
     }
- 
 
-
-    
     public ResultSet consultar(String sql){
         conectar();
         ResultSet resultado = null;
