@@ -1,0 +1,22 @@
+﻿formato para guardar los archivos a procesar :
+
+
+
+
+archivo de texto llamado con el nombre del directorio,
+
+se guardara en el disrectorio temp de la aplicacion . 
+
+
+
+
+formato : 
+
+url y nommbre;
+tipo:[directorio/archivo];
+fecha modificado;
+tamaño en bytes. 
+
+
+
+
