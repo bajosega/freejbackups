@@ -81,7 +81,6 @@ public class Selec_origen extends javax.swing.JFrame {
          }        
     }//GEN-LAST:event_jFileChooser3ActionPerformed
 
-    
      private void llenarTabla(String directorio,String Archivos,String Tamaño){
         DefaultTableModel tablamodal = (DefaultTableModel)PlanCrear.tblDirectorios.getModel();
         String [] fila = new String[3];

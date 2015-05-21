@@ -18,7 +18,6 @@
 
 package datos;
 
-
 import static freejbackups.historial.jdatetime;
 import javax.swing.JOptionPane;
 
@@ -55,11 +54,7 @@ public class planes extends operaciones{
     }  
     
    public  void InsertarPlan(String sql){
-   
        insertar("INSERT INTO plan (nombre, fechaCreado, ultimaEjecucion, estado, activo) " +
                 "VALUES (" + sql +")");
-   }
-    
-  
-   
+   }   
 }

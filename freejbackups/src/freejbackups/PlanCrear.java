@@ -19,6 +19,7 @@ package freejbackups;
 
 import datos.planes;
 import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 
 
 public class PlanCrear extends javax.swing.JFrame {  
@@ -221,7 +222,15 @@ public class PlanCrear extends javax.swing.JFrame {
     
     
 	private void btnQuitarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuitarActionPerformed
-        JOptionPane.showMessageDialog(null, "EPA !! esto todavia o esta terminado");
+            try {
+                    DefaultTableModel tablamodal = (DefaultTableModel)PlanCrear.tblDirectorios.getModel();
+                    tablamodal.removeRow(tblDirectorios.getSelectedRow());
+                    PlanCrear.tblDirectorios.setModel(tablamodal);
+
+                    JOptionPane.showMessageDialog(null, "Directorio Eliminado");
+            } catch (Exception e) {
+                 JOptionPane.showMessageDialog(null, "Debe seleccionar un Directorio a eliminar");
+            }     
     }//GEN-LAST:event_btnQuitarActionPerformed
 	
 	public static void main(String args[]) {
