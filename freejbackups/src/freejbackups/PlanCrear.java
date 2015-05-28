@@ -220,7 +220,6 @@ public class PlanCrear extends javax.swing.JFrame {
     {JOptionPane.showMessageDialog(null, "DEBE INGRESAR NOMBBRE DEL PLAN"); }
     }
     
-    
 	private void btnQuitarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuitarActionPerformed
             try {
                     DefaultTableModel tablamodal = (DefaultTableModel)PlanCrear.tblDirectorios.getModel();
