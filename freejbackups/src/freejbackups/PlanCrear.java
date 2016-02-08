@@ -18,6 +18,9 @@
 package freejbackups;
 
 import datos.planes;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -212,7 +215,11 @@ public class PlanCrear extends javax.swing.JFrame {
         for (int i=0;i<tblDirectorios.getRowCount();i++){
         Origen[i] = tblDirectorios.getValueAt(i,0).toString();
         } 
-     obj.GuardarPlan(txtNombrePlan.getText(),Origen,txtDestino.getText());  
+        try {  
+            obj.GuardarPlan(txtNombrePlan.getText(),Origen,txtDestino.getText());
+        } catch (SQLException ex) {
+            Logger.getLogger(PlanCrear.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_btnGuardarActionPerformed
 
     

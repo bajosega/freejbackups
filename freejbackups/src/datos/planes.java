@@ -19,11 +19,13 @@
 package datos;
 
 import static freejbackups.historial.jdatetime;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
 public class planes extends operaciones{
     
-    public  void GuardarPlan(String Nombre,String origenes[],String destino){
+    public  void GuardarPlan(String Nombre,String origenes[],String destino) throws SQLException{
         // primero guardo en la tabla Plan . 
     String sql;
     boolean guardado = true;
@@ -33,13 +35,24 @@ public class planes extends operaciones{
             + " values"
             + " ('"+Nombre+"','" + jdatetime() +"')";    
       if ( insertar(sql))
-      {   // como se guardo correctamente ,tengo que gurdar los detalles del plan. 
+      {   // como se guardo correctamente ,tengo que guardar los detalles del plan. 
+          // para guardar los detalles tengo que averiguar el ultimo idPlan Ingresado
+          
+          ResultSet hola = null; // asi no me jode con que no es usada
+          String idPLan = null ;  
+          hola=consultar("select idplan from PLAN order by idPlan desc");
+          
+         if(hola.next()) {
+         idPLan=hola.getString("idPLan");
+         }
+         hola.close();
+          
         for (String origen : origenes)
         {
               sql = "insert into plan_detalle"
-                      + " (nombre,origen,destino)"
+                      + " (fk_idPlan,directorio)"
                       + " values"
-                      + " ('"+Nombre+"','" + origen +"',' "+ destino + "')";
+                      + " ('"+ idPLan +"','" + origen +"')";
               if (!insertar(sql)){    
                guardado = false;
               } 
