@@ -39,7 +39,7 @@ public class planes extends operaciones{
               sql = "insert into plan_detalle"
                       + " (nombre,origen,destino)"
                       + " values"
-                      + " ('"+Nombre+"','" + origen +"','"+ destino + "')";
+                      + " ('"+Nombre+"','" + origen +"',' "+ destino + "')";
               if (!insertar(sql)){    
                guardado = false;
               } 
