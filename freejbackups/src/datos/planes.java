@@ -35,17 +35,16 @@ public class planes extends operaciones{
             + " values"
             + " ('"+Nombre+"','" + jdatetime() +"')";    
       if ( insertar(sql))
-      {   // como se guardo correctamente ,tengo que guardar los detalles del plan. 
-          // para guardar los detalles tengo que averiguar el ultimo idPlan Ingresado
+      { // como se guardo correctamente ,tengo que guardar los detalles del plan. 
+        // para guardar los detalles tengo que averiguar el ultimo idPlan Ingresado
           
-          ResultSet hola = null; // asi no me jode con que no es usada
-          String idPLan = null ;  
-          hola=consultar("select idplan from PLAN order by idPlan desc");
+        ResultSet ConsultarID = null; // asi no me jode con que no es usada
+        String idPLan = null ;  
+        ConsultarID=consultar("select idplan from PLAN order by idPlan desc");
           
-         if(hola.next()) {
-         idPLan=hola.getString("idPLan");
-         }
-         hola.close();
+        if(ConsultarID.next()) {idPLan=ConsultarID.getString("idPLan");}
+        
+        ConsultarID.close();
           
         for (String origen : origenes)
         {
